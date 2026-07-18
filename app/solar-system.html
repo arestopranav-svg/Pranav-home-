@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solar System — Interactive Planet Guide | PRANAV COSMIC</title>
+  <meta name="description" content="Meet all eight planets of our solar system — Mercury to Neptune — with distances from the Sun, descriptions and fascinating facts." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="PRANAV COSMIC home">
+        <span class="brand-logo"><img src="assets/logo.svg" alt="PRANAV COSMIC logo" /></span>
+        <span class="brand-text">
+          <span class="brand-name">PRANAV COSMIC</span><br />
+          <span class="brand-sub">&amp; Universe Explore</span>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="universe.html">Universe</a>
+        <a href="solar-system.html" class="active">Solar System</a>
+        <a href="missions.html">Space Missions</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="videos.html">Videos</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Join The Journey</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="universe.html">Universe</a>
+    <a href="solar-system.html" class="active">Solar System</a>
+    <a href="missions.html">Space Missions</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="videos.html">Videos</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Join The Cosmic Journey</a>
+  </div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow reveal">Our Cosmic Neighbourhood</span>
+        <h1 class="reveal" data-delay="1">The <span class="gradient-text">Solar System</span></h1>
+        <p class="reveal" data-delay="2">Eight worlds orbiting one ordinary star — each with its own extraordinary story. Hover over a card to see it come alive.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 20px;">
+      <div class="container">
+        <div class="orbit-strip reveal" aria-hidden="true">
+          <div class="orbit-dot" style="width:22px;height:22px;background:radial-gradient(circle at 35% 30%,#FFE9A8,#F5B301 60%,#C47F00);"><span>Sun</span></div>
+          <div class="orbit-dot" style="background:#9A938A;"><span>Mercury</span></div>
+          <div class="orbit-dot" style="background:#E0A955;"><span>Venus</span></div>
+          <div class="orbit-dot" style="background:#2FA8C9;"><span>Earth</span></div>
+          <div class="orbit-dot" style="background:#D96F3C;"><span>Mars</span></div>
+          <div class="orbit-dot" style="width:20px;height:20px;background:#D9B583;"><span>Jupiter</span></div>
+          <div class="orbit-dot" style="width:18px;height:18px;background:#D9BB7A;"><span>Saturn</span></div>
+          <div class="orbit-dot" style="background:#7BD5D8;"><span>Uranus</span></div>
+          <div class="orbit-dot" style="background:#3E6BD6;"><span>Neptune</span></div>
+        </div>
+
+        <div class="planet-grid">
+          <article class="planet-card reveal">
+            <div class="planet-visual"><div class="planet-sphere p-mercury"></div></div>
+            <h3>Mercury</h3>
+            <p class="p-desc">The smallest planet and closest to the Sun — a cratered world of extreme temperatures.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>57.9M km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> A single day on Mercury lasts 176 Earth days.</div>
+          </article>
+
+          <article class="planet-card reveal" data-delay="1">
+            <div class="planet-visual"><div class="planet-sphere p-venus"></div></div>
+            <h3>Venus</h3>
+            <p class="p-desc">Earth's toxic twin — wrapped in thick CO₂ clouds with crushing, furnace-like heat.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>108.2M km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> Venus spins backwards, and its day is longer than its year.</div>
+          </article>
+
+          <article class="planet-card reveal" data-delay="2">
+            <div class="planet-visual"><div class="planet-sphere p-earth"></div></div>
+            <h3>Earth</h3>
+            <p class="p-desc">The only known world with life — blue oceans, breathable air and a protective magnetic field.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>149.6M km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> Earth is the densest planet in the solar system.</div>
+          </article>
+
+          <article class="planet-card reveal" data-delay="3">
+            <div class="planet-visual"><div class="planet-sphere p-mars"></div></div>
+            <h3>Mars</h3>
+            <p class="p-desc">The Red Planet — home to the tallest volcano and the deepest canyon in the solar system.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>227.9M km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> Olympus Mons on Mars is nearly 3× taller than Everest.</div>
+          </article>
+
+          <article class="planet-card reveal">
+            <div class="planet-visual"><div class="planet-sphere p-jupiter"></div></div>
+            <h3>Jupiter</h3>
+            <p class="p-desc">The giant of the solar system — more massive than all other planets combined.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>778.5M km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> Its Great Red Spot is a storm larger than Earth, raging for centuries.</div>
+          </article>
+
+          <article class="planet-card reveal" data-delay="1">
+            <div class="planet-visual">
+              <div class="planet-ring"></div>
+              <div class="planet-sphere p-saturn"></div>
+            </div>
+            <h3>Saturn</h3>
+            <p class="p-desc">The jewel of the solar system — crowned by rings of ice and rock stretching 280,000 km.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>1.43B km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> Saturn is so light it would float in water.</div>
+          </article>
+
+          <article class="planet-card reveal" data-delay="2">
+            <div class="planet-visual"><div class="planet-sphere p-uranus"></div></div>
+            <h3>Uranus</h3>
+            <p class="p-desc">An ice giant tipped on its side, rolling around the Sun with seasons lasting 21 years.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>2.87B km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> Uranus rotates at a 98° tilt — it essentially orbits on its side.</div>
+          </article>
+
+          <article class="planet-card reveal" data-delay="3">
+            <div class="planet-visual"><div class="planet-sphere p-neptune"></div></div>
+            <h3>Neptune</h3>
+            <p class="p-desc">The windiest world — a deep-blue ice giant with supersonic storms of 2,100 km/h.</p>
+            <span class="planet-dist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>4.50B km from Sun</span>
+            <div class="planet-fact"><strong>Fact:</strong> Neptune was found by mathematics before it was seen through a telescope.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 10px;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2>Humanity's Reach Beyond Earth</h2>
+          <p>From Apollo's first steps to Webb's deepest images — follow the missions that carried us outward.</p>
+          <div class="cta-actions">
+            <a href="missions.html" class="btn btn-primary">Explore Space Missions</a>
+            <a href="gallery.html" class="btn btn-ghost">View The Gallery</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-logo"><img src="assets/logo.svg" alt="PRANAV COSMIC logo" /></span>
+          <span class="brand-text">
+            <span class="brand-name">PRANAV COSMIC</span><br />
+            <span class="brand-sub">&amp; Universe Explore</span>
+          </span>
+        </a>
+        <p>A premium astronomy experience — exploring galaxies, black holes, planets and the infinite mysteries of the cosmos.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/arestopranav_.0p" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://youtube.com/@aetheriaceleste" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.5 7.2a2.8 2.8 0 0 0-2-2C18.9 4.8 12 4.8 12 4.8s-6.9 0-8.5.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 4.8 2.8 2.8 0 0 0 2 2c1.6.4 8.5.4 8.5.4s6.9 0 8.5-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-4.8zM9.8 15.1V8.9L15.4 12z"/></svg>
+          </a>
+          <a href="mailto:arestopranav@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="3.5"/><path d="m4 7 8 6 8-6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="universe.html">Universe</a></li>
+          <li><a href="solar-system.html">Solar System</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Discover</h4>
+        <ul>
+          <li><a href="missions.html">Space Missions</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/arestopranav_.0p" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://youtube.com/@aetheriaceleste" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="mailto:arestopranav@gmail.com">arestopranav@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2027 <strong>PRANAV COSMIC &amp; UNIVERSE EXPLORE</strong>. All rights reserved.</span>
+      <span>Made for the curious — keep looking up.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
